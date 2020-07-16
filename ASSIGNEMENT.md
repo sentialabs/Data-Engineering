@@ -7,6 +7,7 @@ The purpose of this repository is to provide an assignment that will highlight t
     - [Part 1 - Creation of an ETL process and deployment](#part-1---Creation-of-an-ETL-process-and-deployment)
     - [Part 2 - Create app to generate test data](#part-2---Create-app-to-generate-test-data)
     - [Part 3 - CI/CD](#part-3---cicd)
+    - [Part 4 - Privacy] (#part-4---privacy)
 - [Deliverables](#deliverables)
 - [Links](#links)
 - [License](#license)
@@ -82,11 +83,15 @@ Generate-events \
 
 ### Part 3 - CI/CD
 Please provide a design for the CI/CD pipeline that you will use to deliver the changes to the environment, every time the client updates requirements in GIT. For this purpose, please treat the target architecture from [Part 1](#part-1---transformation-and-migration-to-the-public-cloud) as a black box.
+### Part 4 - Privacy
+Off the ten data sources multiple sources contain privacy sensitive data. This data should be stored in a Storage or a database. How will you handle the privacy of the consumer. 
+
 ## Deliverables
 Please provide the following:
 * For Part 1, an architectural design and IaC templates for deploying the components.
 * For Part 2, provide the GIT repo with the app in there.
 * For Part 3, a complete architectural design of the CI/CD process.
+* For Part 4, a presentation on how you would do this.
 * Please include a simple time log of the activities you have performed.
 * Please document any assumptions and decisions you have made.
 * Please include a presentation of the results within slides, ready to be presented to our client.
