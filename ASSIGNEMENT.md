@@ -7,7 +7,7 @@ The purpose of this repository is to provide an assignment that will highlight t
     - [Part 1 - Creation of an ETL process and deployment](#part-1---Creation-of-an-ETL-process-and-deployment)
     - [Part 2 - Create app to generate test data](#part-2---Create-app-to-generate-test-data)
     - [Part 3 - CI/CD](#part-3---cicd)
-    - [Part 4 - Privacy] (#part-4---privacy)
+    - [Part 4 - Privacy](#part-4---privacy)
 - [Deliverables](#deliverables)
 - [Links](#links)
 - [License](#license)
