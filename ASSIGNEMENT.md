@@ -21,7 +21,9 @@ You have participated in a meeting with a client to assess their strategy to mig
 * be futureproof and expandable with new data pipelines.
 * be cost effecient
 
-### Part 2 - Technical test
+### Part 2 - Create app to generate test data
+To test your data pipelines we typically create test data. In part 1 you created a design for the platform. Below you can find an assignment to create a app to generate the test data for the platform you designed above.
+
 The customer raises hundreds of different event types. This task involves a simplification of the following 3 event types which are part of the ordering process workflow:
 * 'OrderPlaced' *is raised when a customer places an order.*
 * 'OrderDelivered' *is raised when the customer receives their order.*
