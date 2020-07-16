@@ -16,9 +16,10 @@ Please be aware of the fact that we are not only looking at the actual deliverab
 You will need to make a choice of delivering your solution in either **Amazon Web Services** or **Microsoft Azure**. We prefer the usage of native tools for IaC. Please use *CloudFormation (CFN)* or *Azure Resource Manager (ARM)* templates for this purpose and **not Terraform**. Of course, third party tools are always necessary in some cases. Please find suggested tools and guides in the [Links](#links) section that may help you in this journey.
 ## Assignment
 ### Part 1 - Transformation and Migration to the Public Cloud
-You have participated in a meeting with a client to assess their strategy to migrate to the public cloud. They are currently disclosing 10 data sources on multiple platforms. They want the data sources to be extracted, transformed and Loaded to the public cloud to be available for their data scientists. The past few months, they have been having a lot of issues with small files because some of their current ETL processes have not be created correctly. The customer wants in the design an approach how to prevent this from happening. Their current landscape consists of informatica for ingress, spark for transformation and sql warehouse as a data warehouse. All of these need to be transformed to cloudnative solutions if possible. Please explain in the design why you decided on what. The customer asked to design the future state of this environment in the public cloud. The solution needs to:
+You have participated in a meeting with a client to assess their strategy to migrate to the public cloud. They are currently disclosing 10 data sources on multiple platforms. What they want the data sources to be extracted, transformed and Loaded to the public cloud. This is to have them available for their data scientists. The past few months, they have been having a lot of issues with small files. The current ETL processes where not created correctly.In the design there should be an approach how to prevent this from happening. Their current landscape consists of Informatica for ingress, Spark for transformation and SQL warehouse as a data warehouse. All of these need to be transformed to cloudnative solutions if possible. Please explain in the design why you decided on what. The customer asked to design the future state of this environment in the public cloud. The solution needs to:
 * be scalable and flexible.
 * be futureproof and expandable with new data pipelines.
+* be cost effecient
 
 ### Part 2 - Technical test
 The customer raises hundreds of different event types. This task involves a simplification of the following 3 event types which are part of the ordering process workflow:
@@ -100,4 +101,4 @@ Please provide the following:
 - [Microsoft Azure Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 - [Containers](https://www.docker.com/resources/what-container)
 ## License
-Copyright © 2019, [Sentia](https://sentia.com). All rights reserved.
+Copyright © 2020, [Sentia](https://sentia.com). All rights reserved.
