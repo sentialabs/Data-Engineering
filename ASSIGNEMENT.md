@@ -28,7 +28,7 @@ Please provide a design for the CI/CD pipeline that you will use to deliver the 
 ## Deliverables
 Please provide the following:
 * For Part 1, an architectural design of the platform.
-* For Part 1, functional design of the whole ETL process or the IaC templates for the components.
+* For Part 1, functional design of the whole ETL process and the IaC templates for the components.
 * For Part 2, a complete architectural design of the CI/CD process.
 * Please include a simple time log of the activities you have performed.
 * Please document any assumptions and decisions you have made.
