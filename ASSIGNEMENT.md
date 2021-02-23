@@ -23,7 +23,7 @@ The minutes of the meeting are as follows:
 2) They have both structured and unstructured data in an on premise network. Microsoft SQL Server, MySql, MongoDB and Couchbase respectively. They plan on introducing more sources later.
 3) They require data to be extracted, transformed and loaded into a cloud by using cloud platform services. They always have a preference for PaaS.
 4) Some of the data they have in the non-structured source needs to be normalized into a structured data model for further analysis
-5) They want a data analysis tool, someone mentioned PowerBi someone also said they wanted to use Machine Learning to read this data from a source
+5) They want a data analysis tool, someone mentioned PowerBi someone also said they wanted to use Machine Learning to analyse this data after the transformation.
 6) We need to have logging for all activity on the network.
 7) Costs are important for this customer (as usual), however the architecture should be aimed at enterprise and "Big data" was a term used.
 
@@ -58,6 +58,6 @@ What they now expect us to do as deliverables:
 - [Microsoft Azure cloud Analytics solutions](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/advanced-analytics-on-big-data)
 - [AWS big data](https://aws.amazon.com/big-data/datalakes-and-analytics/)https://www.ibm.com/nl-en/analytics/machine-learning
 - [IBM Machine Learning](https://www.ibm.com/nl-en/analytics/machine-learning)
-
+- [Cloud Providers Private Connectivity](https://www.megaport.com/blog/comparing-cloud-providers-private-connectivity/)
 ## License
 Copyright © 2020, [Sentia](https://sentia.com). All rights reserved.
