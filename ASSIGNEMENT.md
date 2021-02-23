@@ -4,7 +4,7 @@ The purpose of this repository is to provide an assignment that will highlight t
 ## Table of content
 - [General Information](#general-information)
 - [Assignment](#assignment)
-    - [Part 1 - Get there data!](#part-1---Get-there-data!)
+    - [Part 1 - Get there data!](#part-1---Get-their-data!)
     - [Part 2 - Deploy your resources](#part-2---Deploy-your-resources)
 - [Deliverables](#deliverables)
 - [Links](#links)
@@ -14,7 +14,7 @@ This assignment is meant to challenge you in the complete spectrum of designing 
 We are looking for a workable solution to our customers problem. Deliver what you are capable of delivering. There is a theory part of the assessment too, this is of equal importance as the practical; however we work in the real world and you should provide a practical example of your work.
 
 ## Assignment
-### Part 1 - Get there data!
+### Part 1 - Get their data!
 You have participated in a meeting with a client to assess their strategy to migrate to the public cloud. During there journey to the cloud, they want to get some immediate benefits and introduce an ETL process with analysis.
 
 The minutes of the meeting are as follows:
