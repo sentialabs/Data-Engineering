@@ -4,7 +4,7 @@ The purpose of this repository is to provide an assignment that will highlight t
 ## Table of content
 - [General Information](#general-information)
 - [Assignment](#assignment)
-    - [Part 1 - Get there data!](#part-1---Get-their-data!)
+    - [Part 1 - Get their data!](#part-1---Get-their-data!)
     - [Part 2 - Deploy your resources](#part-2---Deploy-your-resources)
 - [Deliverables](#deliverables)
 - [Links](#links)
