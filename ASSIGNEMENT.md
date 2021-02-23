@@ -1,39 +1,47 @@
 # Sentia Recruitment
 Welcome to Sentia Recruitment
-The purpose of this repository is to provide an assignment that will highlight the strengths required by a cloud data engineer in our public cloud consultancy workforce.
+The purpose of this repository is to provide an assignment that will highlight the strengths required by a cloud data engineer in our public cloud consultancy workforce. This assessment can be done in any capacity from Junior to Senior levels.
 ## Table of content
 - [General Information](#general-information)
 - [Assignment](#assignment)
-    - [Part 1 - Creation of an ETL process and deployment](#part-1---Creation-of-an-ETL-process-and-deployment)
-    - [Part 2 - CI/CD](#part-2---cicd)
+    - [Part 1 - Get there data!](#part-1---Get-there-data!)
+    - [Part 2 - Deploy your resources](#part-2---Deploy-your-resources)
 - [Deliverables](#deliverables)
 - [Links](#links)
 - [License](#license)
 ## General Information
-This assignment is meant to challenge the potential applicant in the complete spectrum of designing a solution and delivering an environment in the public cloud using Infrastructure as Code (IaC).
-Please be aware of the fact that we are not only looking at the actual deliverables but also the process followed to achieve these results. *The presentation of the results is of equal importance to the actual results.*
+This assignment is meant to challenge you in the complete spectrum of designing a solution and delivering an environment in the public cloud using Infrastructure as Code (IaC).
+We are looking for a workable solution to our customers problem. Deliver what you are capable of delivering. There is a theory part of the assessment too, this is of equal importance as the practical; however we work in the real world and you should provide a practical example of your work.
 
 ## Assignment
-### Part 1 - Creation of an ETL process and deployment
-You have participated in a meeting with a client to assess their strategy to migrate to the public cloud. They are currently disclosing 10 data sources on multiple platforms. What they want the data sources to be extracted, transformed and Loaded to the public cloud. This is to have them available for their data scientists. The past few months, they have been having a lot of issues with small files. The current ETL processes where not created correctly.In the design there should be an approach how to prevent this from happening. Their current landscape consists of Informatica for ingress, Spark for transformation and SQL warehouse as a data warehouse. All of these need to be transformed to cloudnative solutions if possible. Please explain in the design why you decided on what. 
-The solution needs to:
-* be scalable and flexible.
-* be futureproof and expandable with new data pipelines.
-* be cost effecient
+### Part 1 - Get there data!
+You have participated in a meeting with a client to assess their strategy to migrate to the public cloud. During there journey to the cloud, they want to get some immediate benefits and introduce an ETL process with analysis.
 
-### Part 2 - CI/CD
-Please provide a design for the CI/CD pipeline that you will use to deliver the changes to the environment, every time the client updates requirements in GIT. For this purpose, please treat the target architecture from [Part 1 - Creation of an ETL process and deployment](#part-1---Creation-of-an-ETL-process-and-deployment) as a black box.
+The minutes of the meeting are as follows:
 
+1) They have a loose requirement for Direct Connectivity - Azure ExpressRoute or AWS Direct Connect or GCP Interconnect, OR you can use a vpn. This is the first topic that was discussed in the meeting because they don't want there data exposed in any way; security is important.
+2) They have both structured and unstructured data in an on premise network. Microsoft SQL Server, MySql, MongoDB and Couchbase respectively. They plan on introducing more sources later.
+3) They require data to be extracted, transformed and loaded into a cloud by using cloud platform services. They always have a preference for PaaS.
+4) Some of the data they have in the non-structured source needs to be normalized into a structured data model for further analysis
+5) They want a data analysis tool, someone mentioned PowerBi someone also said they wanted to use Machine Learning to read this data from a source
+6) We need to have logging for all activity on the network.
+7) Costs are important for this customer (as usual), however the architecture should be aimed at enterprise and "Big data" was a term used.
+
+### Part 2 - Deploy your resources
+Please provide a design for the CI/CD pipeline that you will use to deliver the changes to the environment, every time the client updates requirements in GIT.
+The customer has asked for a Proof of Concept (see point 2 below in deliverables), however the pipeline could be independent of the delivery.
 
 ## Deliverables
 Please provide the following:
-* For Part 1, an architectural design of the platform and the IaC templates for the components.
-* For Part 1, functional design of the whole ETL process.
-* For Part 2, a complete architectural design of the CI/CD process.
-* Please include a simple time log of the activities you have performed.
-* Please document any assumptions and decisions you have made.
-* Please include a presentation of the results within slides, ready to be presented to our client.
-## Links
+What they now expect us to do as deliverables:
+1) A design of the infrastructure you could make to support a proof of concept assuming the customer network and data sources.
+2) Deliver a Proof Of Concept using assumptions. Document those assumptions. This can be in the cloud of your choice, however you should provide us Infrastructure as Code.
+3) All files and code should be delivered in a GIT repository.
+4) The GIT Repo should have some execution instructions.
+5) Keep careful track of the time you used; try use your git timeline as a point of reference for best results - small concise useful commits are appreciated.
+6) We will need a presentation of the results: architecture, design drawings, data process and analysis decisions.
+
+## Links for example searches
 - [The Twelve Factors](https://12factor.net/)
 - [GitHub For Beginners: Don’t Get Scared, Get Started](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 - [Draw.io](https://www.draw.io/)
@@ -44,8 +52,12 @@ Please provide the following:
 - [Microsoft Azure Virtual Machine Scale Sets](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview?toc=%2Fazure%2Fvirtual-machines%2Flinux%2Ftoc.json)
 - [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
 - [Microsoft Azure Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+- [IBM Big Data](https://www.ibm.com/nl-en/it-infrastructure/solutions/big-data)
+- [GCP Big Data](https://cloud.google.com/what-is-big-data)
 - [Containers](https://www.docker.com/resources/what-container)
 - [Microsoft Azure cloud Analytics solutions](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/advanced-analytics-on-big-data)
-- [AWS big data](https://aws.amazon.com/big-data/datalakes-and-analytics/)
+- [AWS big data](https://aws.amazon.com/big-data/datalakes-and-analytics/)https://www.ibm.com/nl-en/analytics/machine-learning
+- [IBM Machine Learning](https://www.ibm.com/nl-en/analytics/machine-learning)
+
 ## License
 Copyright © 2020, [Sentia](https://sentia.com). All rights reserved.
